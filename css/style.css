@@ -441,7 +441,6 @@ span.badge{
   right: 50%;
   margin-top: 52px;
   position: relative;
-  z-index: -1;
 }
 .study{
   right: 29px;
@@ -452,3 +451,44 @@ span.badge{
 .progress{
   margin-left:0;
 }
+
+.edit-pro-pic{
+  font-size: 190px;
+  position: absolute !important;
+  color:#ddd0;
+}
+.edit-pro-pic:hover{
+  font-size: 190px;
+  position: absolute !important;
+  color: #dddddd6b;
+}
+
+.edit-background-pic{
+  width: 164px;
+  height: 75px;
+  position: absolute;
+  transform: rotateZ(-45deg);
+  left: -49px;
+  top: -13px;
+}
+
+.edit-background-pic-icon{
+  position: absolute;
+  top: -77px;
+  left: -1px;
+  font-size: 62px;
+  color: #c2e3ed14;
+  z-index: 2;
+  width: 153px;
+  height: 151px;
+  text-align: center;
+  line-height: 4;
+  background-color: #cbcbcb21;
+}
+
+.edit-background-pic-icon:hover{
+  background-color: #cbcbcb75;
+  color: #c2e3ed;
+}
+
+
